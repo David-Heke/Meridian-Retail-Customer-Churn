@@ -1,0 +1,9 @@
+model,split,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc
+Dummy Baseline,Validation,0.6013,0.5,0.6013,1.0,0.751,0.5,0.6013
+Logistic Regression,Validation,0.615,0.5499,0.6301,0.8713,0.7313,0.5952,0.6583
+Random Forest (untuned),Validation,0.7233,0.6865,0.7257,0.868,0.7905,0.7382,0.7473
+Gradient Boosting,Validation,0.6284,0.5524,0.6297,0.9276,0.7501,0.6121,0.6598
+Tuned Random Forest,Validation,0.6828,0.628,0.6784,0.8985,0.7731,0.7087,0.7366
+MLP Neural Network,Validation,0.587,0.5573,0.6431,0.7039,0.6721,0.5841,0.663
+Random Forest (untuned),Test,0.6566,0.5872,0.7285,0.7845,0.7555,0.6246,0.7515
+Tuned Random Forest,Test,0.6863,0.5863,0.7225,0.8703,0.7895,0.6515,0.7737

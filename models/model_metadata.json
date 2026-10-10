@@ -1,0 +1,37 @@
+{
+  "model_name": "Tuned Random Forest",
+  "artifact": "tuned_random_forest_churn_pipeline.joblib",
+  "target": "future_180_day_churn",
+  "threshold": 0.5,
+  "best_cv_roc_auc": 0.6963,
+  "best_params": {
+    "class_weight": null,
+    "max_depth": 20,
+    "max_features": "log2",
+    "min_samples_leaf": 1,
+    "min_samples_split": 4,
+    "n_estimators": 378
+  },
+  "test_metrics": {
+    "model": "Tuned Random Forest",
+    "split": "Test",
+    "accuracy": 0.6863,
+    "balanced_accuracy": 0.5863,
+    "precision": 0.7225,
+    "recall": 0.8703,
+    "f1": 0.7895,
+    "roc_auc": 0.6515,
+    "pr_auc": 0.7737
+  },
+  "confusion_matrix": [
+    [
+      3624,
+      8362
+    ],
+    [
+      3243,
+      21767
+    ]
+  ],
+  "selection_reason": "Strongest overall held-out test profile among the evaluated Random Forest variants, particularly F1, recall and PR-AUC."
+}
